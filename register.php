@@ -11,7 +11,7 @@ if (isset($_SESSION['user_arr'])) {
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Blog_web Register</title>
+    <title>Blog_web Register </title>
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
         rel="stylesheet"
@@ -20,7 +20,7 @@ if (isset($_SESSION['user_arr'])) {
 </head>
 
 <body>
-    <section class="vh-100" style="background-color: #9a616d">
+    <section class="vh-100" style="background-color: #90C67C">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-10">
@@ -84,8 +84,8 @@ if (isset($_SESSION['user_arr'])) {
                                         </div>
 
                                         <p class="mb-5 pb-lg-2" style="color: #393f81">
-                                            Don't have an account?
-                                            <a href="#!" style="color: #393f81">Register here</a>
+                                            Already have an account.
+                                            <a href="./login.php" style="color: #393f81">Login</a>
                                         </p>
                                         <a href="#!" class="small text-muted">Terms of use.</a>
                                         <a href="#!" class="small text-muted">Privacy policy</a>
