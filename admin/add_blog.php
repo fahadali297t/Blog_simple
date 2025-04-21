@@ -20,7 +20,7 @@ if (isset($_SESSION['user_arr'])) {
                         <input type="text" class="form-control" name="blog_title" required placeholder="Blog Title">
                     </div>
                     <div class="mb-3">
-                        <textarea name="blog_body" required class="form-control" placeholder="body" rows="2" id="blog_body"></textarea>
+                        <textarea name="blog_body" required class="form-control" placeholder="body" rows="15" id="blog_body"></textarea>
                     </div>
                     <div class="mb-3">
                         <input class="form-control" required type="file" name="blog_img">
