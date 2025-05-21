@@ -31,7 +31,7 @@ if (isset($_POST['read_more'])) {
   <link rel="stylesheet" href="./assets/style/style.css" />
 </head>
 
-<body>
+<body style="background-color:#ECFAE5">
   <?php
   include_once "./includes/navbar.php";
   ?>

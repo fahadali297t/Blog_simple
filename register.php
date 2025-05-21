@@ -19,7 +19,7 @@ if (isset($_SESSION['user_arr'])) {
         crossorigin="anonymous" />
 </head>
 
-<body>
+<body style="background-color:#ECFAE5">
     <section class="vh-100">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">

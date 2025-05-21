@@ -23,7 +23,7 @@ include_once "./includes/dbconnect.php";
 
 </head>
 
-<body>
+<body style="background-color:#ECFAE5">
   <!--  -->
   <?php
   include_once "./includes/navbar.php"
